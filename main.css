@@ -170,6 +170,12 @@ p{
 	margin-top: -120%;
 	margin-left:-10%;
 }
+/*added*/
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media { 
+	#buttonlist { 
+		margin-top:-150%;
+	} } }
+		
 .actual{
 	text-transform: uppercase;
 	position:relative;
