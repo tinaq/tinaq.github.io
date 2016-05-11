@@ -7,14 +7,13 @@ main.css
 
 body{
 	 overflow-x: hidden;
-	 	background: url("bgweb3.png") no-repeat left top fixed;
-	 
+	 	background: url("bgweb3.png") no-repeat right bottom fixed;
 	 -ms-transform: scale(0.8);
 	 -moz-transform: scale(0.95);
     -moz-transform-origin: top left;
     -ms-transform-origin: top left;   
 }
-
+/*for safari-!*/
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media { 
 	body { 
 		-webkit-transform: scale(0.8);
@@ -29,7 +28,10 @@ h2,p{
 	color:#66e0ff;
 }
 p{
-	font-size:18px;
+	font-size:130%;
+}
+h2{
+	font-size: 170%
 }
 .menu{
  	top:7%;
@@ -49,9 +51,7 @@ p{
 	background: url("button.png") 0% 0%/ 80% 80% no-repeat;
 	border: none;
 	width:5em;
-	height:5em;
-	padding-left:3%;
-	margin-left: 30%;		
+	height:5em;		
 	transition-duration:0.3s;	
 	-moz-transition: 0.3s;
 	-ms-transition: background 0.3s;
@@ -84,22 +84,12 @@ p{
 .actual:hover{
 	cursor: pointer;
 }
-#gallery_button,#music_button{
-	margin-left: -6%;
-}
 
-#a,#p{
-	margin-left:5%;
-	position:relative;
-	
-	-ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
-}
-#g,#m{
-	position:relative;
-	
-}
+/*for safari-!*/
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media { 
+	#buttonlist { 
+		margin-top:-150%;
+		} } }
 
 .hidden{
 	display:none;
@@ -159,6 +149,7 @@ p{
 	}
 	.menu .star{
 		position:relative;
+		margin-left: -5%;
 		padding-bottom: 0%;
 
 	}
@@ -170,12 +161,6 @@ p{
 	margin-top: -120%;
 	margin-left:-10%;
 }
-/*added*/
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media { 
-	#buttonlist { 
-		margin-top:-150%;
-	} } }
-		
 .actual{
 	text-transform: uppercase;
 	position:relative;
@@ -188,11 +173,5 @@ p{
 	background-color: Transparent;
 	border:none;
 	outline:none;
-}
-#a,#p{
-	margin-left: -10%;
-}
-#gallery_button,#music_button{
-	margin-left: -52%;
 }
 }
