@@ -7,7 +7,8 @@ main.css
 
 body{
 	 overflow-x: hidden;
-	 	background: url("bgweb3.png") no-repeat right bottom fixed;
+	 background: url("bgweb3.png") no-repeat right bottom fixed;
+	 background-size: 100%;
 	 -ms-transform: scale(0.8);
 	 -moz-transform: scale(0.95);
     -moz-transform-origin: top left;
@@ -67,6 +68,13 @@ h2{
 #buttonlist{
 	margin-top: -90%;
 	margin-left: -20%
+}
+@media only screen and (min-width: 768px) {
+	.actual{
+		position:relative;
+		margin-left:15%;
+	margin-bottom:5%;
+	}
 }
 .actual{
 	text-transform: uppercase;
