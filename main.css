@@ -75,13 +75,12 @@ h2{
 	.actual{
 		position:relative;
 		margin-left:15%;
-	margin-bottom:0%;
 	}
 	#buttonlist{
 	margin-left: -20%;
-	margin-top: -10%;
+	margin-top: -60%;
 	
-}
+	}
 }
 .actual{
 	text-transform: uppercase;
