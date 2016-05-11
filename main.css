@@ -73,12 +73,13 @@ h2{
 }
 @media only screen and (min-width: 2000px) {
 	.actual{
-		position:relative;
 		margin-left:15%;
+		margin-bottom:2%;
+		
 	}
 	#buttonlist{
 	margin-left: -20%;
-	margin-top: -60%;
+	margin-top: -70%;
 	
 	}
 }
