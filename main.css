@@ -47,7 +47,7 @@ h2{
 }
 #buttonstar{
 	margin-left:-5%;
-}
+	}
 
 .menu .star{
 	background: url("button.png") 0% 0%/ 80% 80% no-repeat;
@@ -67,7 +67,9 @@ h2{
 }
 
 #buttonlist{
-	margin-left: -20%
+	margin-left: -20%;
+	margin-top:-30%;
+	
 }
 @media only screen and (min-width: 2000px) {
 	.actual{
@@ -80,7 +82,7 @@ h2{
 	text-transform: uppercase;
 	position:relative;
 	margin-left:15%;
-	margin-bottom:5%;
+	margin-bottom:10%;
 	font-size: 110%;
 	font-weight:bold;
 	font-family: helvetica;
