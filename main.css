@@ -9,7 +9,7 @@ body{
 	 overflow-x: hidden;
 	 background: url("bgweb3.png") ;
 	 background-repeat:no-repeat;
-	 background-size: 100%;
+	 background-size: cover;
 	 -ms-transform: scale(0.8);
 	 -moz-transform: scale(0.95);
     -moz-transform-origin: top left;
