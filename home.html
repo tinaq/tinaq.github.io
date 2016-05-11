@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<meta name="viewport" content="width=device-width">
+<style>
+img {
+    max-width: 100%;
+}
+</style>
+	<meta charset="utf-8"/>
+	<title>Home</title>
+	<link rel="stylesheet" href="main.css">  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type = "text/javascript" src = "jquery-1.12.0.min.js"></script>
+	<script>
+	var counter=0;
+	var w;
+	var h;
+	var full;
+	function getw(id){
+		full = "full"+id;
+		var fi = new Image();   	
+		fi.src = full;
+		fi.onload = function() { 		
+			w = fi.width;
+			h = fi.height;
+		};		
+	}
+	function openImage(id){
+		counter++;
+		var l = (screen.width/2)-(w/2);
+		window.open(full,counter, "width="+w+",height="+h+",left="+l);	
+	}
+	</script>  
+
+</head>
+<body id = "home" >
+	<div class = "menu">
+		<img src = "a.png" id = "sideimage"/>
+		<ul id ="buttonstar" style="list-style: none;">
+			<li>
+				<button class = "star" id = "a"  onclick="if(this.blur)this.blur()"> </button> 
+			<li>
+			<li>
+				<button class = "star" id = "g"  onclick="if(this.blur)this.blur()"> </button> 
+			<li>
+			<li>
+				<button class = "star" id = "p"  onclick="if(this.blur)this.blur()"> </button>
+			<li>
+			<li>
+				<button class = "star" id = "m"  onclick="if(this.blur)this.blur()"> </button> 
+			<li>
+		<ul>
+
+		<ul id = "buttonlist" style="list-style: none;">
+			<li>
+				
+				<button class="actual" id = "about_button" 
+				data-page = "aboutinfo" data-bye1 = "projectinfo" data-bye2 = "gallery" data-bye3 = "musicinfo"
+				data-b1 = "p" data-b2 = "g" data-b3="m" data-star="a"
+				onclick="if(this.blur)this.blur()">
+				<span>About</span>
+			</button>
+		</li>
+
+		<li>
+			
+			<button class = "actual" id = "gallery_button" 
+			data-page = "gallery" data-bye1 = "projectinfo" data-bye2 = "aboutinfo" data-bye3 = "musicinfo"
+			data-b1 = "p" data-b2 = "a" data-b3="m" data-star="g"
+			onclick="if(this.blur)this.blur()">
+			<span>Gallery</span>
+		</button>
+	</li>
+
+	<li>
+		
+		<button class = "actual" id = "projects_button" 
+		data-page = "projectinfo" data-bye1 = "aboutinfo" data-bye2 = "gallery" data-bye3 = "musicinfo"
+		data-b1 = "a" data-b2 = "g" data-b3="m" data-star="p"
+		onclick="if(this.blur)this.blur()">
+		<span>Programming</span>
+	</button>
+</li>
+<li>
+				
+				<button class="actual" id = "music_button" 
+				data-page = "musicinfo" data-bye1 = "projectinfo" data-bye2 = "gallery" data-bye3 = "aboutinfo"
+				data-b1 = "p" data-b2 = "g" data-b3 = "a"data-star="m"
+				onclick="if(this.blur)this.blur()">
+				<span>Music</span>
+			</button>
+		</li>
+</ul>
+</div>
+
+
+<div class="mainpage hidden" id="gallery" >
+	<h2 class="title"> Gallery</h2>
+	<p> Illustrations drawn using Paint Tool Sai.<br>
+	 Includes personal drawings, prints for conventions, and gifts for friends.<br>
+	 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+	<div id="gallerytable">
+		<h2>Fan Art</h2>
+		<tr>
+			<td><a href="#" id="nitori.png" onmouseover="getw(this.id)" onclick="openImage(this.id);">
+				<img src= "nitori.png">
+			</a>
+		</td>
+
+		<td><a href="#" id="remilia.png" onmouseover="getw(this.id)" onclick="openImage(this.id);">
+			<img src= "remilia.png"</td>
+		</a></td>
+		<td><a href="#" id="izuna.png" onmouseover="getw(this.id)" onclick="openImage(this.id);">
+			<img   src="izuna.png"</td>
+		</a>
+	</td>
+</tr>
+<tr>
+	<td>
+		<a href="#" id="kancolle.jpg" onmouseover="getw(this.id)" onclick="openImage(this.id);">
+			<img  src= "kancolle.jpg"</td>
+		</a>
+	</td>
+	<td>
+	</td>
+	<td>
+	</td>
+</tr>
+<div id="Original">
+	<h2> Original/For others</h2>
+	<tr>
+		<td>
+			<a href="#" id="at.png" onmouseover="getw(this.id)" onclick="openImage(this.id);">
+				<img id="at.png" src= "at.png"</td>
+			</a>
+
+			<td><a href="#" id="light.jpg" onmouseover="getw(this.id)" onclick="openImage(this.id);">
+				<img src= "light.jpg"</td>
+			</a></td>
+		</tr>
+	</div>
+</div>
+</div>
+
+<div class="mainpage" id="aboutinfo">
+	<h2 class="title" >About</h2>
+	<p>
+		okwhateverccontentkjsfshfkjssfjsaljflkfksjflksalfsajf;sajafkjsafjshfkjshflsa</p>
+		<p>hjsahfkjsahfshfkjdshfnmndskjlsahfkjshfshflkshfshfmcxnmzxjdshjskdhfskhfsjf<br>jsfsj
+		hfjksahfkjsahfkjhfkjsahfksajfdlhfuwhfjkahfkjsdhfkjshfkjshfsnfmaf
+		<br>fadssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss<br>
+		fdsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+
+	<div class="mainpage hidden" id="projectinfo">
+		<h2 class="title" >Projects</h2>
+		<p>
+			okwhateverccontent</p>
+		</div> 
+<div class="mainpage hidden" id = "musicinfo">
+	<h2 class="title">Music</h2>
+	<p>Original compositions for projects and games</p>
+</div>
+	</body>
+
+	<script type = "text/javascript" src = "jquery-1.12.0.min.js"></script>
+	<script>
+	$(function(){
+		$("#a").css({ "background": "url('buttonclicked.png')", "background-size":"80%","background-repeat":"no-repeat" });
+		
+		$(".actual").click(function(){	
+			var bye1=$(this).attr("data-bye1");
+			var bye2=$(this).attr("data-bye2");
+			var bye3=$(this).attr("data-bye3");
+			var page = $(this).attr("data-page");	
+			var b1 = $(this).attr("data-b1");
+			var b2 = $(this).attr("data-b2");
+			var b3 = $(this).attr("data-b3");
+			var star = $(this).attr("data-star");
+			$('#'+b1).css({ "background": "url('button.png')", "background-size":"80%","background-repeat":"no-repeat" });  
+			$('#'+b2).css({ "background": "url('button.png')", "background-size":"80%","background-repeat":"no-repeat" });
+			$('#'+b3).css({ "background": "url('button.png')", "background-size":"80%","background-repeat":"no-repeat" });
+			$("#"+star).css({"background": "url('buttonclicked.png')", "background-size":"80%","background-repeat":"no-repeat" });
+			$('#'+page).show();
+			$('#'+bye1).hide();
+			$('#'+bye2).hide();
+			$('#'+bye3).hide();											
+		});	
+		$(".actual").hover(function(){	
+			var page = $(this).attr("data-page");
+			var star = $(this).attr("data-star");
+			if ($('#'+page).is(":visible")){		
+			}
+			else{
+				$('#'+star).css({ "background": "url('buttonhover.png')", "background-size":"80%","background-repeat":"no-repeat" });
+			}
+		},
+		function(){
+			var page = $(this).attr("data-page");
+			var star = $(this).attr("data-star");
+			if ($('#'+page).is(":visible")){		
+				$('#'+star).css({ "background": "url('buttonclicked.png')", "background-size":"80%","background-repeat":"no-repeat" });
+			}
+			else{
+				$('#'+star).css({ "background": "url('button.png')", "background-size":"80%","background-repeat":"no-repeat"});
+			}		
+		});
+	});
+</script>
+
+</html>
