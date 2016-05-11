@@ -71,18 +71,7 @@ h2{
 	margin-top: -90%;
 	
 }
-@media only screen and (min-width: 2000px) {
-	.actual{
-		margin-left:15%;
-		margin-bottom:-10%;
-		
-	}
-	#buttonlist{
-	margin-left: -20%;
-	margin-top: -63%;
-	
-	}
-}
+
 .actual{
 	text-transform: uppercase;
 	position:relative;
