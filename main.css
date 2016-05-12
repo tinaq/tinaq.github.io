@@ -135,13 +135,13 @@ h2{
 }
 #gallery > #gallerytable > a > img{
 	padding: 1px 0px 1px 0px;
-	border: 8px solid #66e0ff;
+	border: 1vh solid #66e0ff;
 	width: 8%;
 	max-width: 60vmax;
 	max-height: 60vmax;
 }
 #gallery > #gallerytable > a > img:hover{
-	 outline: 3px solid #66e0ff; 
+	 outline: 0.7vh solid #66e0ff; 
 }
 #Original{
 	position:relative;
@@ -149,12 +149,29 @@ h2{
 }
 #Original> a > img{
 	padding: 1px 1px 1px 1px;
-	border: 8px solid #66e0ff;
+	border: 1vh solid #66e0ff;
 	width: 8%;
 	max-width: 60vmax;
 	max-height: 60vmax;
 	text-decoration: none;
 }
 #Original > a > img:hover{
-	 outline: 3px solid #66e0ff; 
+	 outline: 0.7vh solid #66e0ff; 
+}
+#projectinfo>ul{
+	margin:0%;
+	padding:0%;
+}
+#projectinfo>ul>li{
+	margin:0%;
+	padding:0%;
+}
+#projectinfo>ul>li>p,#projectinfo>ul>li>h3{
+	margin:0%;
+	padding-left:15%;
+}
+#projectinfo >ul >li >img{
+	max-width: 10%;
+	border:0.8vh solid #66e0ff;;	
+	float: left;
 }
