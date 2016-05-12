@@ -182,9 +182,8 @@ h2{
 }
 #projectinfo >ul >li >span{
 	font-size: 2vh;
-	font-family: helvetica;
-	color:white;
-	background-color: #66e0ff;
-	border:none;
+	border-radius:3vh;
+	color:#66e0ff;
+	border:#66e0ff;
 	outline:none;
 }
