@@ -29,8 +29,11 @@ body{
 	width:70%;	
 	display: block;
 }
-h2,p{
+h2,p,h3,a{
 	color:#66e0ff;
+}
+a{
+	text-decoration:none;
 }
 p{
 	font-size:2vh;
