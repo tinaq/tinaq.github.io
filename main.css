@@ -185,7 +185,8 @@ h2{
 	font-size: 2vh;
 	border-radius:2vh;
 	background:#66e0ff;
+	color:black;
 	border:#66e0ff;
 	outline:none;
-	vertical-align:right;
+	vertical-align:left;
 }
