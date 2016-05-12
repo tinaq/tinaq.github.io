@@ -180,7 +180,7 @@ h2{
 	border:0.8vh solid #66e0ff;	
 	float: left;
 }
-#projectinfo >ul >li >span{
+#projectinfo >ul >li >button{
 	font-size: 2vh;
 	border-radius:3vh;
 	color:#66e0ff;
