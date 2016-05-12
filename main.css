@@ -185,8 +185,12 @@ h2{
 	font-size: 2vh;
 	border-radius:2vh;
 	background:#66e0ff;
-	color:#000000;
 	border:#66e0ff;
 	outline:none;
-	horizontal-align:right;
+	margin-right:0%;
+	padding-right:0%;
+}
+#projectinfo >ul >li >button>a{
+	color:black
+	font-size:2vh;
 }
