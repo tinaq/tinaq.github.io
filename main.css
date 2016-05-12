@@ -180,9 +180,11 @@ h2{
 	border:0.8vh solid #66e0ff;	
 	float: left;
 }
-#projectinfo >ul >li >button{
-	border:none;	
-	horizaontal-align:right;
-	background-color:#66e0ff;
-	text-color:white;
+#projectinfo >ul >li >span{
+	font-size: 2vh;
+	font-family: helvetica;
+	color:white;
+	background-color: #66e0ff;
+	border:none;
+	outline:none;
 }
