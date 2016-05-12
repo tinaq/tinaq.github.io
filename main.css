@@ -31,8 +31,9 @@ body{
 }
 #aboutinfo li{
 	list-style:none;
-	margin-left:-7%;
-	padding-left:0%;
+}
+#aboutinfo ul{
+	horizontal-align:left;
 }
 h2,p,h3,a{
 	color:#66e0ff;
