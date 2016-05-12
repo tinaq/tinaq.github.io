@@ -29,6 +29,9 @@ body{
 	width:70%;	
 	display: block;
 }
+.aboutinfo li{
+	list-style:none;
+}
 h2,p,h3,a{
 	color:#66e0ff;
 }
