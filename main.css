@@ -34,6 +34,8 @@ h2,p,h3,a{
 }
 a{
 	text-decoration:none;
+	horizontal-align:left;
+	font-size:2vh;
 }
 p{
 	font-size:2vh;
