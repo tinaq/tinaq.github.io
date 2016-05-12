@@ -2,14 +2,16 @@
 main.css
 
 .menu ul{
-
 }
 
 body{
 	 overflow-x: hidden;
-	 background: url("bgweb3.png") ;
-	 background-repeat:no-repeat;
-	 background-size: cover;
+	 overflow-y: hidden;
+	 	background: url("bgweb3.png");
+	 	background-repeat: no-repeat;
+	 	background-size: 100vmax 100vmin;
+	 	min-width: 100vmax;
+	 	min-height: 100vmin;
 	 -ms-transform: scale(0.8);
 	 -moz-transform: scale(0.95);
     -moz-transform-origin: top left;
@@ -25,15 +27,16 @@ body{
 
 .menu > img{
 	width:70%;	
+	display: block;
 }
 h2,p{
 	color:#66e0ff;
 }
 p{
-	font-size:130%;
+	font-size:2vh;
 }
 h2{
-	font-size: 170%
+	font-size: 3vh;
 }
 .menu{
  	top:7%;
@@ -41,19 +44,25 @@ h2{
 	left:10%;
 	bottom:10%;
 	width: 18%;
-	height: 47%;
 	z-index:1;
 	position:absolute;
 }
 #buttonstar{
-	margin-left:-5%;
-	}
+	width=18%;
+	display: inline;
+	margin: 0;
+	position: relative;
+}
 
 .menu .star{
-	background: url("button.png") 0% 0%/ 80% 80% no-repeat;
-	border: none;
-	width:5em;
-	height:5em;		
+	background: url("button.png");
+	vertical-align: middle;
+	margin-left: 5%;
+	background-size: 80%;
+	width: 7vh;
+	height:7vh;
+	background-repeat:no-repeat;
+	border: none;	
 	transition-duration:0.3s;	
 	-moz-transition: 0.3s;
 	-ms-transition: background 0.3s;
@@ -61,29 +70,26 @@ h2{
 	-ms-transform: rotate(7deg); 
     -webkit-transform: rotate(7deg); 
     transform: rotate(7deg);
+    margin-bottom:0%;
+    padding-left: 10%;
 }
 .menu.star:hover{
 	background-color:#fff333;
 }
 
-#buttonlist{
-	margin-left: -20%;
-	margin-top: -90%;
-	
-}
-
 .actual{
 	text-transform: uppercase;
-	position:relative;
-	margin-left:15%;
-	margin-bottom:16%;
-	font-size: 110%;
+	margin-left: -10%;
+	padding-left:15%;
+	margin-top:0%;
+	font-size: 2vh;
 	font-weight:bold;
 	font-family: helvetica;
 	color:#66e0ff;
 	background-color: Transparent;
 	border:none;
 	outline:none;
+	    margin-bottom:0%;
 }
 .actual:hover{
 	cursor: pointer;
@@ -100,10 +106,10 @@ h2{
 }
 
 .mainpage{	
-	position:absolute;
+	position:relative;
 	padding-left:28%;
 	margin-top:5%;
-	width:100%;
+	width:72%;
 	z-index:0;
 }
 
@@ -114,8 +120,9 @@ h2{
 #gallery > #gallerytable > a > img{
 	padding: 1px 0px 1px 0px;
 	border: 8px solid #66e0ff;
-	max-width: 60%;
-	max-height: 60%;
+	width: 8%;
+	max-width: 60vmax;
+	max-height: 60vmax;
 }
 #gallery > #gallerytable > a > img:hover{
 	 outline: 3px solid #66e0ff; 
@@ -127,55 +134,11 @@ h2{
 #Original> a > img{
 	padding: 1px 1px 1px 1px;
 	border: 8px solid #66e0ff;
-	max-width: 60%;
-	max-height: 60%;
+	width: 8%;
+	max-width: 60vmax;
+	max-height: 60vmax;
 	text-decoration: none;
 }
 #Original > a > img:hover{
 	 outline: 3px solid #66e0ff; 
-}
-@-moz-document url-prefix() { 
-	body{
-	background: url("bgweb4.png");
-	}
-	.menu{
- 	margin-top:5%;
-	height: 100%;
-	left:15%;
-	bottom:10%;
-	width: 18%;
-	height: 47%;
-	z-index:1;
-	position:absolute;
-}
-	.mainpage{
-		left:5%;
-	}
-	.menu .star{
-		position:relative;
-		margin-left: -5%;
-		padding-bottom: 0%;
-
-	}
-	.actual{
-		position: relative;
-		margin-bottom: 90%
-	}
-	#buttonlist{
-	margin-top: -120%;
-	margin-left:-10%;
-}
-.actual{
-	text-transform: uppercase;
-	position:relative;
-	margin-left:-10%;
-	margin-bottom:25%;
-	font-size: 110%;
-	font-weight:bold;
-	font-family: helvetica;
-	color:#66e0ff;
-	background-color: Transparent;
-	border:none;
-	outline:none;
-}
 }
