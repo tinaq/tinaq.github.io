@@ -29,7 +29,7 @@ body{
 	width:70%;	
 	display: block;
 }
-.aboutinfo li{
+#aboutinfo li{
 	list-style:none;
 }
 h2,p,h3,a{
