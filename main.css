@@ -161,11 +161,11 @@ h2{
 #projectinfo>ul{
 	margin:0%;
 	padding:0%;
-	display:inline;
 }
 #projectinfo>ul>li{
 	margin:0%;
 	padding:0%;
+	horizontal-align:left;
 }
 #projectinfo>ul>li>p,#projectinfo>ul>li>h3{
 	margin:0%;
