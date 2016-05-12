@@ -183,8 +183,8 @@ h2{
 #projectinfo >ul >li >button{
 	font-size: 2vh;
 	border-radius:2vh;
-	color:#66e0ff;
+	background:#66e0ff;
 	border:#66e0ff;
 	outline:none;
-	horizontal-align:right;
+	vertical-align:right;
 }
