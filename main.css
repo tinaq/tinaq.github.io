@@ -165,6 +165,7 @@ h2{
 #projectinfo>ul>li{
 	margin:0%;
 	padding:0%;
+	margin-bottom:10%;
 	horizontal-align:left;
 }
 #projectinfo>ul>li>p,#projectinfo>ul>li>h3{
