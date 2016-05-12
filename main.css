@@ -31,13 +31,13 @@ body{
 }
 #aboutinfo li{
 	list-style:none;
+	margin-left:0%;
 }
 h2,p,h3,a{
 	color:#66e0ff;
 }
 a{
 	text-decoration:none;
-	horizontal-align:left;
 	font-size:2vh;
 }
 p{
