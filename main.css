@@ -177,6 +177,12 @@ h2{
 }
 #projectinfo >ul >li >img{
 	max-width: 10%;
-	border:0.8vh solid #66e0ff;;	
+	border:0.8vh solid #66e0ff;	
 	float: left;
+}
+#projectinfo >ul >li >button{
+	border:none;	
+	horizaontal-align:right;
+	background-color:#66e0ff;
+	text-color:white;
 }
