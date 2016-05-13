@@ -171,20 +171,19 @@ h2{
 	padding:0%;
 	width:72%;
 	margin-bottom:10%;
-	horizontal-align:left;
 }
 #projectinfo>ul>li>p,#projectinfo>ul>li>h3{
 	margin:0%;
 	padding-left:15%;
 }
 #projectinfo >ul >li >img{
-	vertical-align:middle;
+	float:left;
 	max-width: 10%;
 	border:0.8vh solid #66e0ff;	
 }
 
 #projectinfo >ul >li >button{
-	margin-left:60%;
+	padding-left:60%;
 	background:#66e0ff;
 	font-size: 2vh;
 	border-radius:1vh;
