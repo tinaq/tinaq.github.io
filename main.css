@@ -190,4 +190,16 @@ h2{
 	font-style:italic;
 	font-size:2vh;
 }
+#musicinfo>ul{
+	margin:0%;
+	padding:0%;
+}
+#musicinfo>ul>li{
+	margin:0%;
+	list-style:none;
+	padding:0%;
+}
+#musicinfo>ul>li>audio{
+	background:#66e0ff;
+}
 
