@@ -178,6 +178,7 @@ h2{
 	padding-left:15%;
 }
 #projectinfo >ul >li >img{
+	vertical-align:middle;
 	max-width: 10%;
 	border:0.8vh solid #66e0ff;	
 }
