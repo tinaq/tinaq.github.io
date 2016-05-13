@@ -174,10 +174,9 @@ h2{
 }
 #projectinfo>ul>li>p,#projectinfo>ul>li>h3{
 	margin:0%;
-	padding-left:15%;
 }
 #projectinfo >ul >li >img{
-	float:left;
+	float:right;
 	max-width: 10%;
 	border:0.8vh solid #66e0ff;	
 }
