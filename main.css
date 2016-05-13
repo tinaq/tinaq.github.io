@@ -184,8 +184,7 @@ h2{
 }
 
 #projectinfo >ul >li >button{
-	text-align:right;
-	list-style-position:inside;
+	margin-left:60%;
 	background:#66e0ff;
 	font-size: 2vh;
 	border-radius:1vh;
