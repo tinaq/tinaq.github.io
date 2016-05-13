@@ -180,11 +180,12 @@ h2{
 #projectinfo >ul >li >img{
 	max-width: 10%;
 	border:0.8vh solid #66e0ff;	
-	float: right;
+	float: left;
 }
 
 #projectinfo >ul >li >button{
 	text-align:right;
+	list-style-position:inside;
 	background:#66e0ff;
 	font-size: 2vh;
 	border-radius:1vh;
