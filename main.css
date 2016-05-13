@@ -181,20 +181,13 @@ h2{
 	border:0.8vh solid #66e0ff;	
 	float: left;
 }
-#projectinfo >ul >li >button{
-	font-size: 2vh;
-	border-radius:2vh;
-	background:#66e0ff;
-	border:#66e0ff;
-	outline:none;
-	margin-right:0%;
-	padding-right:0%;
-}
+
 #projectinfo >ul >li >a{
 	-webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
+font-size: 2vh;
+	border-radius:2vh;
 	color:black
 	font-size:2vh;
 }
