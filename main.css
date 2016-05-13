@@ -182,12 +182,9 @@ h2{
 	float: left;
 }
 
-#projectinfo >ul >li >a{
-	-webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-font-size: 2vh;
+#projectinfo >ul >li >button{
+	background:#66e0ff;
+	font-size: 2vh;
 	border-radius:2vh;
-	color:black
 	font-size:2vh;
 }
