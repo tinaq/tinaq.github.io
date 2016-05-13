@@ -183,7 +183,7 @@ h2{
 }
 
 #projectinfo >ul >li >button{
-	padding-left:60%;
+	left:60%;
 	background:#66e0ff;
 	font-size: 2vh;
 	border-radius:1vh;
