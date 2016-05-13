@@ -190,7 +190,11 @@ h2{
 	margin-right:0%;
 	padding-right:0%;
 }
-#projectinfo >ul >li >button>a{
+#projectinfo >ul >li >a{
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
 	color:black
 	font-size:2vh;
 }
