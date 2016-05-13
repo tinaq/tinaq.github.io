@@ -201,5 +201,7 @@ h2{
 }
 #musicinfo>ul>li>audio{
 	background:#66e0ff;
+	border:none;
+	border-radius:1vh;
 }
 
