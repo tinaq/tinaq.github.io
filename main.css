@@ -47,15 +47,19 @@ h2,p,h3,a{
 a{
 	text-decoration:none;
 	font-size:2vh;
+		font-family:helvetica;
 }
 p{
 	font-size:2vh;
+	font-family:helvetica;
 }
 h3{
 	font-size:2.3vh;
+		font-family:helvetica;
 }
 h2{
 	font-size: 3vh;
+		font-family:helvetica;
 }
 .menu{
  	top:7%;
