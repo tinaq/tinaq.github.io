@@ -1,4 +1,7 @@
 
+.menu ul{
+}
+
 body{
 	 overflow-x: hidden;
 	 overflow-y: hidden;
@@ -225,4 +228,3 @@ h4{
 	color: #66e0ff;
 	margin-bottom:1%;
 }
-
