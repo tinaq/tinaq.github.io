@@ -5,12 +5,17 @@
 	<title>Home</title>
 	<link rel="stylesheet" href="main.css">  
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<script type = "text/javascript" src = "jquery-1.12.0.min.js"></script>
 	<script>
 	var counter=0;
 	var w;
 	var h;
 	var full;
+
+		
+			
+		
 	function getw(id){
 		full = "full"+id;
 		var fi = new Image();   	
@@ -35,7 +40,7 @@
 			<li class="row">
 				<button class = "star" id = "a"  onclick="if(this.blur)this.blur()"> </button>
 				<button class="actual" id = "about_button" 
-					data-page = "aboutinfo" data-bye1 = "projectinfo" data-bye2 = "gallery" data-bye3 = "musicinfo"
+					data-page = "#aboutinfo" data-bye1 = ".projectinfo" data-bye2 = "#gallery" data-bye3 = "#musicinfo"
 					data-b1 = "p" data-b2 = "g" data-b3="m" data-star="a"
 					onclick="if(this.blur)this.blur()">
 					<span>About</span>
@@ -44,7 +49,7 @@
 			<li class="row">
 				<button class = "star" id = "g"  onclick="if(this.blur)this.blur()"> </button>
 				<button class = "actual" id = "gallery_button" 
-					data-page = "gallery" data-bye1 = "projectinfo" data-bye2 = "aboutinfo" data-bye3 = "musicinfo"
+					data-page = "#gallery" data-bye1 = ".projectinfo" data-bye2 = "#aboutinfo" data-bye3 = "#musicinfo"
 					data-b1 = "p" data-b2 = "a" data-b3="m" data-star="g"
 					onclick="if(this.blur)this.blur()">
 					<span>Gallery</span>
@@ -53,16 +58,16 @@
 			<li class="row">
 				<button class = "star" id = "p"  onclick="if(this.blur)this.blur()"> </button>
 				<button class = "actual" id = "projects_button" 
-					data-page = "projectinfo" data-bye1 = "aboutinfo" data-bye2 = "gallery" data-bye3 = "musicinfo"
+					data-page = ".projectinfo" data-bye1 = "#aboutinfo" data-bye2 = "#gallery" data-bye3 = "#musicinfo"
 					data-b1 = "a" data-b2 = "g" data-b3="m" data-star="p"
 					onclick="if(this.blur)this.blur()">
-					<span>Programming</span>
+					<span>Projects</span>
 				</button>
 			<li>
 			<li class="row">
 				<button class = "star" id = "m"  onclick="if(this.blur)this.blur()"> </button>
 				<button class="actual" id = "music_button" 
-					data-page = "musicinfo" data-bye1 = "projectinfo" data-bye2 = "gallery" data-bye3 = "aboutinfo"
+					data-page = "#musicinfo" data-bye1 = ".projectinfo" data-bye2 = "#gallery" data-bye3 = "#aboutinfo"
 					data-b1 = "p" data-b2 = "g" data-b3 = "a"data-star="m"
 					onclick="if(this.blur)this.blur()">
 					<span>Music</span>
@@ -122,7 +127,7 @@
 
 <div class="mainpage" id="aboutinfo">
 	<h2 class="title" >About</h2>
-	<h3>**Please enable JavaScript popups</h3>
+	<h4>**Please enable JavaScript popups</h4>
 	<p>
 
 		Hello!<br>
@@ -133,35 +138,81 @@
 			<li><img src="github.png" style="width:2%"><a href="https://github.com/tinaq" target="_blank">GitHub</a></li>
 			<li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" style="width:2%">
 			<a href="https://www.linkedin.com/in/tina-qian-9a879910a?trk=hp-identity-name" target="_blank">LinkedIn</a></li>
-		</ul></p>
+		</ul></p><br>
+		<h3> Hobbies/Activities</h3>
+		<ul> <li>- Art</li>
+			<li>- Orchestra</li>
+			<li>- Table tennis</li>
+			<li>- Hackathons</li>
+			<li>- UW Magic Club</li>
+			<li> - Students for the United Way</li>
+		</ul>
+
+
 	</div>
 
-	<div class="mainpage hidden" id="projectinfo">
-		<h2 class="title" >Projects</h2><br>
+	<div class="mainpage hidden projectinfo" id = "page1">
+		<h2 class="title" >Projects</h2>
 		<ul>
-		<li><img class = "projectpic" src="cake.png"/>
-		<h3>Cut the Cake</h3>
+		<li><img class = "projectpic" src="td.png"/>
+		<h3>TD Strip</h3>
+		<h4 style="font-style:italic; font-weight: bold;"> >> First Place at Cisco/TD FinHacks</h2>
 	
-		<p><br>How good are you at cutting cakes?<br><br></p>
-<button><a href = "http://stratfordwall.github.io/gdc2016/fraction-hero/" style="underline:none; color:black;" target="_blank">>>Take the Challenge!</a></button>
-<br>
-</li>
-		<li><img class = "projectpic" src="ungooder.png"/>
-		<h3>Grammer Ungooder</h3>
-		<p><br>Do you ever think the Internet can't possibly be any worse?<br>
+		<p>Use this chatbot to help you save money for a future goal.<br> 
+			It comes with hardware with cool LED lights as well!<br></p>
+<button><a href = "https://github.com/tinaq/Finhacks2016" style="underline:none; color:black;" target="_blank">>>Check it out!</a></button>
 
-Prove yourself wrong with this handy app that takes words that have<br> more than one common spelling and swaps them at random!<br><br></p>
-<button><a href = "https://chrome.google.com/webstore/detail/grammer-ungooder/dnefmfcaboiimmkibdjbnciggbfpeeco " style="underline:none;color:black;" target="_blank">>>Get it in the Chrome web store!</a></button>
+</li>
+		<li><img class = "projectpic" src="mobey.png"/>
+		<h3 >UI/UX: The Future Bank</h3>
+		<h4 style="font-style:italic; font-weight: bold;"> >> Third place at Visa Mobey Design Competition</h2>
+		<p>A concept and UI/UX design for the future banking app<br> featuring
+			various Visa APIs.<br></p>
+<button><a href = "mobey.pdf " style="underline:none;color:black;" target="_blank">>>Concept Document</a></button>
 <br>
 </li>
 <li>
 	<img class = "projectpic" src="SchoolRun.png"/>
 	<h3>School Run</h3>
-	<p><br>Help the girl ace all her school exams and projects!<br><br></p>
-<button><span style = "font-style:italic">Coming soon...</span></button>
+	<h4 style="font-style:italic; font-weight: bold;"> >> Personal Project</h2>
+	<p>Help the girl ace all her school exams and projects!<br></p>
+<button><a href = "https://play.google.com/store/apps/details?id=com.schoolrun.reimu.buttonchange" style="underline:none;color:black;" target="_blank">>>Get it in the Google Play store!</a></button>
+
 </li>
+<li class = "nextPage"><p style = "font-style:italic">>>Next Page</li>
+	</ul>
+</div>
+	<div class="projectinfo mainpage hidden " id = "page2">
+		<h2 class="title" >Projects</h2>
+		<ul>
+		<li><img class = "projectpic" src="cake.png"/>
+		<h3>Cut the Cake</h3>
+	<h4 style="font-style:italic; font-weight: bold;"> >> Second place at Stratford Game Camp</h2>
+		<p>How good are you at cutting cakes?<br></p>
+<button><a href = "http://stratfordwall.github.io/gdc2016/fraction-hero/" style="underline:none; color:black;" target="_blank">>>Take the Challenge!</a></button>
+<br>
+</li>
+		<li><img class = "projectpic" src="ungooder.png"/>
+		<h3>Grammer Ungooder</h3>
+		<h4 style="font-style:italic; font-weight: bold;"> >> Honourable mentions at TerribleHacks</h2>
+		<p>Do you ever think the Internet can't possibly be any worse?<br>
+
+Prove yourself wrong with this handy app that takes words that have<br> more than one common spelling and swaps them at random!<br></p>
+<button><a href = "https://chrome.google.com/webstore/detail/grammer-ungooder/dnefmfcaboiimmkibdjbnciggbfpeeco " style="underline:none;color:black;" target="_blank">>>Get it in the Chrome web store!</a></button>
+<br>
+</li>
+</li>
+		<li><img class = "projectpic" src="hh.png"/>
+		<h3>JASS - Jam as a Service</h3>
+		<h4 style="font-style:italic; font-weight: bold;"> >> Hack Harvard 2016</h4>
+		<p>Check out what music can be generated based on your speech!<br></p>
+<button><a href = "https://devpost.com/software/jass-jam-as-a-service" style="underline:none;color:black;" target="_blank">>>DevPost link</a></button>
+</li>
+<li class = "nextPage"><p style = "font-style:italic">Back</li>
+
 	</ul>
 		</div> 
+		
 <div class="mainpage hidden" id = "musicinfo">
 	<h2 class="title">Music</h2>
 	<h3>Original compositions for projects and games</h3>
@@ -201,15 +252,15 @@ Prove yourself wrong with this handy app that takes words that have<br> more tha
 			$('#'+b2).css({ "background": "url('button.png')", "background-size":"80%","background-repeat":"no-repeat" });
 			$('#'+b3).css({ "background": "url('button.png')", "background-size":"80%","background-repeat":"no-repeat" });
 			$("#"+star).css({"background": "url('buttonclicked.png')", "background-size":"80%","background-repeat":"no-repeat" });
-			$('#'+page).show();
-			$('#'+bye1).hide();
-			$('#'+bye2).hide();
-			$('#'+bye3).hide();											
+			$(page).show();
+			$(bye1).hide();
+			$(bye2).hide();
+			$(bye3).hide();											
 		});	
 		$(".actual").hover(function(){	
 			var page = $(this).attr("data-page");
 			var star = $(this).attr("data-star");
-			if ($('#'+page).is(":visible")){		
+			if ($(page).is(":visible")){		
 			}
 			else{
 				$('#'+star).css({ "background": "url('buttonhover.png')", "background-size":"80%","background-repeat":"no-repeat" });
@@ -218,14 +269,29 @@ Prove yourself wrong with this handy app that takes words that have<br> more tha
 		function(){
 			var page = $(this).attr("data-page");
 			var star = $(this).attr("data-star");
-			if ($('#'+page).is(":visible")){		
+			if ($(page).is(":visible")){		
 				$('#'+star).css({ "background": "url('buttonclicked.png')", "background-size":"80%","background-repeat":"no-repeat" });
 			}
 			else{
 				$('#'+star).css({ "background": "url('button.png')", "background-size":"80%","background-repeat":"no-repeat"});
 			}		
 		});
-	});
+		
+		});
+	var page2 = false;
+	$(".nextPage").on("click",function(){
+		if(page2){
+				$("#page2").hide();
+			$("#page1").show();
+			page2 = false;}
+			else{
+					$("#page1").hide();
+			$("#page2").show();
+			page2 = true;
+			}
+	})
+
+
 
 </script>
 
