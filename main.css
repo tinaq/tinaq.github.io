@@ -1,6 +1,4 @@
 
-main.css
-
 .menu ul{
 }
 
@@ -61,10 +59,16 @@ h2{
 	font-size: 3vh;
 		font-family:helvetica;
 }
+h4{
+	font-size: 2.4vh;
+	color: #66e0ff;
+		font-family:helvetica;
+}
+
 .menu{
- 	top:7%;
-	height: 100%;
-	left:10%;
+ 	top:15%;
+	height: 50%;
+	left:15%;
 	bottom:10%;
 	width: 18%;
 	z-index:1;
@@ -90,6 +94,141 @@ h2{
 	-moz-transition: 0.3s;
 	-ms-transition: background 0.3s;
 	-webkit-transition: background 0.3s;
+	-ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(7deg); 
+    transform: rotate(7deg);
+    margin-bottom:0%;
+    padding-left: 10%;
+}
+.menu.star:hover{
+	background-color:#fff333;
+}
+.actual{
+	text-transform: uppercase;
+	margin-left: -10%;
+	padding-left:15%;
+	margin-top:0%;
+	font-size: 2vh;
+	font-weight:bold;
+	font-family: helvetica;
+	color:#66e0ff;
+	background-color: Transparent;
+	border:none;
+	outline:none;
+	    margin-bottom:0%;
+}
+.actual:hover{
+	cursor: pointer;
+}
+
+/*for safari-!*/
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media { 
+	#buttonlist { 
+		margin-top:-150%;
+		} } }
+
+.hidden{
+	display:none;
+}
+
+.mainpage{	
+	position:relative;
+	padding-left:35%;
+	margin-top:5%;
+	width:72%;
+	z-index:0;
+}
+
+#gallerytable{
+	padding-top:-2%;
+
+}
+#gallery > #gallerytable > a > img{
+	padding: 1px 0px 1px 0px;
+	border: 1vh solid #66e0ff;
+	width: 8%;
+	max-width: 60vmax;
+	max-height: 60vmax;
+}
+#gallery > #gallerytable > a > img:hover{
+	 outline: 0.7vh solid #66e0ff; 
+}
+#Original{
+	position:relative;
+	top:20px;
+}
+#Original> a > img{
+	padding: 1px 1px 1px 1px;
+	border: 1vh solid #66e0ff;
+	width: 8%;
+	max-width: 60vmax;
+	max-height: 60vmax;
+	text-decoration: none;
+}
+#Original > a > img:hover{
+	 outline: 0.7vh solid #66e0ff; 
+}
+.projectinfo>ul{
+	margin:0%;
+	padding:0%;
+	width:72%;
+}
+.projectinfo>ul>li{
+	margin:0%;
+	padding:0%;
+	width:72%;
+	margin-bottom:5%;
+}
+.projectinfo>ul>li>p,.projectinfo>ul>li>h3{
+	margin:0%.
+}
+.projectinfo >ul >li >img{
+	float:right;
+	max-width: 20%;
+	border:0.4vh solid #66e0ff;	
+}
+.projectinfo >ul >li >button{
+	left:60%;
+	background:#66e0ff;
+	font-size: 2vh;
+	border-radius:1vh;
+	border:none;
+	font-style:italic;
+	font-size:2vh;
+}
+#musicinfo>ul{
+	margin:0%;
+	padding:0%;
+}
+#musicinfo>ul>li{
+	margin:0%;
+	list-style:none;
+	padding:0%;
+}
+#musicinfo>ul>li>audio{
+	background-color:#66e0ff !important;
+	border:none;
+	border-radius:1vh;
+	width:22%;
+}
+.nextPage:hover{
+	cursor:pointer;
+}
+.projectinfo > ul > li >h3{
+	color: 	#FFFF67;
+}
+.projectinfo > ul > li >h3{
+	color: 	#FFFF67;
+	font-family:garamond;
+}
+#aboutinfo >h3{
+	color: 	#FFFF67;
+}
+#aboutinfo >ul>li{
+	color: #66e0ff;
+	margin-bottom:1%;
+}
+
 	-ms-transform: rotate(7deg); 
     -webkit-transform: rotate(7deg); 
     transform: rotate(7deg);
